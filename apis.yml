@@ -1,8 +1,23 @@
 aid: sun-basket
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sun-basket.png
 name: Sun Basket
-description: 'Sun Basket is a company surfaced as a portfolio company of sapphire-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sun Basket is a San Francisco-based meal-kit and prepared-meal delivery service offering
+  organic, chef-designed recipes and ingredients shipped as weekly subscription boxes, with menus spanning
+  dietary programs such as paleo, keto, vegetarian, gluten-free, and diabetes-friendly options. Surfaced
+  as a portfolio company of sapphire-ventures and added to the API Evangelist network for enrichment, Sun
+  Basket operates a consumer e-commerce and subscription-delivery product; no public developer API surface
+  was found during enrichment probing.'
 url: https://raw.githubusercontent.com/api-evangelist/sun-basket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Meal Kit
+- Food Delivery
+- Subscription
+- E-Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +42,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/sun-basket-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sun-basket-domain-security.yml
+- type: Security
+  url: security/sun-basket-vulnerability-disclosure.yml
 - type: Website
   url: https://www.sunbasket.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
