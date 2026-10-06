@@ -38,7 +38,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Consumer
@@ -53,6 +53,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://sunbasket.com/blog/
+  type: Blog
+- url: https://sunbasket.com/feed/
+  type: BlogRSS
 - type: VulnerabilityDisclosure
   url: security/sun-basket-vulnerability-disclosure.yml
 - type: DomainSecurity
