@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/sun-basket/integrations
+- https://n8n.io/integrations/sun-basket/
+- https://composio.dev/toolkits/sun-basket
+- https://monid.ai/tools/sun-basket
+checked:
+- https://composio.dev/toolkits/sun-basket
+- https://monid.ai/tools/sun-basket
+- https://n8n.io/integrations/sun-basket/
+- https://zapier.com/apps/sun-basket/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
